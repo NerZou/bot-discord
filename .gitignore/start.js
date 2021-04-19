@@ -1,7 +1,7 @@
 const discord = require('discord.js'); 
 const client = new discord.Client(); //Création d'un nouveau client discord
 
-client.login("ODMzNjQzMTM1MzEzNzcyNTQ0.YH1Uqw.lfsB2IBHpdY13xot_Bn6QLCAPDI")
+client.login(process.env.TOKEN);
 
 var prefixe = ("!");
 
